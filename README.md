@@ -17,13 +17,13 @@
             border-radius: 10px;
             background-color: #f4f4f4;
             padding: 15px;
-            margin-bottom: 20px;
+
         }
 
         .content-wrapper {
-            background-color: #ffffff;
             border-radius: 10px;
             padding: 20px;
+            gap: 24px;
         }
 
         .text-column {
@@ -39,13 +39,13 @@
     </style>
 </head>
 
-<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
-    <center style="width: 100%; background-color: #f4f4f4; padding: 10px 0;">
+<body style="margin: 0; padding: 0;">
+    <center style="width: 100%; padding: 10px 0;">
         <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
-            style="border-collapse: collapse; max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 10px;">
+            style="border-collapse: collapse; max-width: 600px; width: 100%; border-radius: 10px;">
             <tr>
                 <td
-                    style="padding: 0; position: relative; background-color: #eaf0ff; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                    style="padding: 0; position: relative; border-top-left-radius: 10px; border-top-right-radius: 10px;">
                     <img src="https://raw.githubusercontent.com/gaebizinha/NewsGabi/main/headernews.png"
                         alt="UX News Header" style="width: 100%; border-radius: 10px 10px 0 0;">
                     <div
