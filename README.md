@@ -19,6 +19,23 @@
             padding: 15px;
             margin-bottom: 20px;
         }
+
+        .content-wrapper {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .text-column {
+            width: 48%;
+            vertical-align: top;
+            font-size: 14px;
+        }
+
+        .text-columns {
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 </head>
 
@@ -144,24 +161,23 @@
                         </tr>
                         <tr>
                             <td style="padding: 10px 0;">
-                                <p style="font-size: 14px; margin: 0;">No BTG Empresas foi prevista a nova dinâmica de
-                                    pagamento para que as empresas mantenham em dia o recolhimento do encargo. O FGTS
-                                    Digital é uma plataforma criada pelo Governo Federal para facilitar e agilizar o
-                                    processo de pagamento do Fundo de Garantia por Tempo de Serviço.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 10px 0;">
-                                <p style="font-size: 14px; margin: 0;">Desde março de 2024 ele é o sistema oficial para
-                                    todas as transações relacionadas ao FGTS. A partir da tecnologia do eSocial, o valor
-                                    é calculado e a cobrança é feita de forma mais eficiente.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 10px 0;">
-                                <p style="font-size: 14px; margin: 0;">Para os empregadores, a plataforma deve trazer
-                                    facilidade na hora de realizar os pagamentos via Pix, garantindo que o dinheiro
-                                    chegue mais rapidamente às contas dos trabalhadores.</p>
+                                <div class="text-columns">
+                                    <div class="text-column">
+                                        <p style="font-size: 14px; margin: 0;">No BTG Empresas foi prevista a nova
+                                            dinâmica de pagamento para que as empresas mantenham em dia o recolhimento
+                                            do encargo. O FGTS Digital é uma plataforma criada pelo Governo Federal para
+                                            facilitar e agilizar o processo de pagamento do Fundo de Garantia por Tempo
+                                            de Serviço.</p>
+                                    </div>
+                                    <div class="text-column">
+                                        <p style="font-size: 14px; margin: 0;">Desde março de 2024 ele é o sistema
+                                            oficial para todas as transações relacionadas ao FGTS. A partir da
+                                            tecnologia do eSocial, o valor é calculado e a cobrança é feita de forma
+                                            mais eficiente. Para os empregadores, a plataforma deve trazer facilidade na
+                                            hora de realizar os pagamentos via Pix, garantindo que o dinheiro chegue
+                                            mais rapidamente às contas dos trabalhadores.</p>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                     </table>
