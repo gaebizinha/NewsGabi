@@ -11,12 +11,16 @@
         a {
             font-family: Arial, sans-serif;
             text-size-adjust: 100%;
+            background-color: #F5F5F6;
         }
 
         .news-item {
             border-radius: 10px;
-            background-color: #f4f4f4;
-            padding: 15px;
+            background-color: #ffffff;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 4px;
+
 
         }
 
@@ -36,6 +40,18 @@
             display: flex;
             justify-content: space-between;
         }
+
+        .header-text {
+            padding-top: 40px;
+            position: absolute;
+            top: 10px;
+            /* Ajusta a posição vertical */
+            right: 20px;
+            /* Ajusta a posição horizontal */
+            font-size: 40px;
+            font-weight: regular;
+            color: #000;
+        }
     </style>
 </head>
 
@@ -48,50 +64,56 @@
                     style="padding: 0; position: relative; border-top-left-radius: 10px; border-top-right-radius: 10px;">
                     <img src="https://raw.githubusercontent.com/gaebizinha/NewsGabi/main/headernews.png"
                         alt="UX News Header" style="width: 100%; border-radius: 10px 10px 0 0;">
-                    <div
-                        style="position: absolute; top: 50%; right: 20px; transform: translateY(-50%); font-size: 20px; font-weight: bold; color: #000;">
-                        50ª edição</div>
+                    <div class="header-text">50ª edição</div>
                 </td>
             </tr>
             <tr>
-                <td style="padding: 20px;">
+                <td style="padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px;">
                     <table class="news-item" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <td style="padding-right: 20px;">
-                                <h2 style="font-size: 16px; color: #0056b3; margin: 0;">Ações da Meta despencam após
-                                    gastos "agressivos" em inteligência artificial</h2>
-                                <p style="font-size: 14px; color: #666; margin: 5px 0 10px;">As ações da Meta
+                            <td style="padding-right: 25px; background-color: #ffffff;">
+                                <h2 style="font-size: 12px; margin: 0; font-weight: bold; color: #0056b3;">
+                                    Ações da Meta despencam após gastos "agressivos" em inteligência artificial</h2>
+                                <p style="font-size: 9px; color: #666; margin: 8px 0 8px 0; ">
+                                    As
+                                    ações da Meta
                                     despencaram nas negociações de pré-mercado na quinta-feira, quando os planos do
                                     proprietário do Facebook de "investir agressivamente" em inteligência artificial
                                     assustaram os investidores.</p>
-                                <a href="#" style="font-size: 14px; color: #0056b3; text-decoration: none;">Leia a
+                                <a href="https://investimentos.btgpactual.com/cadastro/?utm_channel=PaidSearch&utm_medium=spl&utm_network=g:&utm_source=google&utm_campaign=GSN_BR_BUINVEST_Branding_Institucional-novo-score&utm_campaign_id=21283566385&utm_content=GSN_BR_Branding_BTG_Investimentos_novo-dominio-novo-score&utm_content_id=163193329418&utm_term_id=kwd-91995911::b:btg:685149339806&gad_source=1&gclid=EAIaIQobChMIx_XzzYXXhwMVn0NIAB30oA-fEAAYASAAEgKqZfD_BwE"
+                                    style="font-size: 10px; font-style: regular; color: #0056b3; text-decoration:underline; background-color: #ffffff;">Leia
+                                    a
                                     matéria completa</a>
                             </td>
-                            <td style="width: 150px;">
+                            <td style="width: 187px; background-color: #ffffff; height: min-content;">
                                 <img src="https://raw.githubusercontent.com/gaebizinha/NewsGabi/main/news.png"
-                                    alt="Notícia 1" style="width: 100%; border-radius: 10px;">
+                                    alt="Notícia 1" style="width: 100%; border-radius: 20px; ">
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td style="padding: 20px;">
+                <td style="padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px;">
                     <table class="news-item" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                            <td style="padding-right: 20px;">
-                                <h2 style="font-size: 16px; color: #0056b3; margin: 0;">Ações da Meta despencam após
-                                    gastos "agressivos" em inteligência artificial</h2>
-                                <p style="font-size: 14px; color: #666; margin: 5px 0 10px;">As ações da Meta
+                            <td style="padding-right: 25px; background-color: #ffffff;">
+                                <h2 style="font-size: 12px; margin: 0; font-weight: bold; color: #0056b3;">
+                                    Ações da Meta despencam após gastos "agressivos" em inteligência artificial</h2>
+                                <p style="font-size: 9px; color: #666; margin: 8px 0 8px 0; ">
+                                    As
+                                    ações da Meta
                                     despencaram nas negociações de pré-mercado na quinta-feira, quando os planos do
                                     proprietário do Facebook de "investir agressivamente" em inteligência artificial
                                     assustaram os investidores.</p>
-                                <a href="#" style="font-size: 14px; color: #0056b3; text-decoration: none;">Leia a
+                                <a href="https://investimentos.btgpactual.com/cadastro/?utm_channel=PaidSearch&utm_medium=spl&utm_network=g:&utm_source=google&utm_campaign=GSN_BR_BUINVEST_Branding_Institucional-novo-score&utm_campaign_id=21283566385&utm_content=GSN_BR_Branding_BTG_Investimentos_novo-dominio-novo-score&utm_content_id=163193329418&utm_term_id=kwd-91995911::b:btg:685149339806&gad_source=1&gclid=EAIaIQobChMIx_XzzYXXhwMVn0NIAB30oA-fEAAYASAAEgKqZfD_BwE"
+                                    style="font-size: 10px; font-style: regular; color: #0056b3; text-decoration:underline; background-color: #ffffff;">Leia
+                                    a
                                     matéria completa</a>
                             </td>
-                            <td style="width: 150px;">
+                            <td style="width: 187px; background-color: #ffffff; height: min-content;">
                                 <img src="https://raw.githubusercontent.com/gaebizinha/NewsGabi/main/news.png"
-                                    alt="Notícia 2" style="width: 100%; border-radius: 10px;">
+                                    alt="Notícia 1" style="width: 100%; border-radius: 20px; ">
                             </td>
                         </tr>
                     </table>
